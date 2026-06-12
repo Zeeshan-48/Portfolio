@@ -1,4 +1,4 @@
-
+﻿
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#080C18;--bg2:#0C1222;--card:#0F172A;--card2:#111827;
@@ -243,6 +243,4 @@ footer span{color:var(--cyan)}
   .modal{padding:30px 24px}
   .hero-badge{bottom:-4px;right:-8px;padding:6px 10px}
 }
-
-
 
