@@ -1,5 +1,5 @@
 ﻿
-// â”€â”€ MOBILE NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// MOBILE NAV
 function toggleMobileNav() {
   var links = document.getElementById('navLinks');
   var toggle = document.getElementById('navToggle');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-// â”€â”€ MODAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// MODAL
 function openModal() {
   document.getElementById('hireModal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -26,7 +26,7 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-// â”€â”€ PROJECTS MODAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// PROJECTS MODAL
 function openProjectsModal() {
   document.getElementById('projectsModal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -58,7 +58,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') { closeModal(); closeProjectsModal(); }
 });
 
-// â”€â”€ PARTICLES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// PARTICLES
 (function() {
   var c = document.getElementById('particles');
   if (!c) return;
@@ -102,7 +102,7 @@ document.addEventListener('keydown', function(e) {
   frame();
 })();
 
-// â”€â”€ TYPING EFFECT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// TYPING EFFECT
 (function() {
   var roles = ['Software Engineer', 'MERN Stack Developer', 'React Developer', 'C++ Programmer', 'Problem Solver'];
   var el = document.getElementById('typed-role');
@@ -122,7 +122,7 @@ document.addEventListener('keydown', function(e) {
   setTimeout(tick, 600);
 })();
 
-// â”€â”€ SCROLL REVEAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// SCROLL REVEAL
 (function() {
   var els = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window)) {
@@ -141,7 +141,7 @@ document.addEventListener('keydown', function(e) {
   els.forEach(function(el) { io.observe(el); });
 })();
 
-// â”€â”€ NAV ACTIVE STATE ON SCROLL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// NAV ACTIVE STATE ON SCROLL
 (function() {
   var sections = document.querySelectorAll('section[id], div[id="hero"]');
   var navLinks = document.querySelectorAll('.nav-links a');
